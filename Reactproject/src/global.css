@@ -1,0 +1,83 @@
+.universal .container {
+  margin: 0 auto;
+  max-width: 1423px;
+  background-color: #000;
+  height: 68px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.universal .container .logo {
+  width: 180px;
+  height: 89px;
+}
+.universal .container .logo img {
+  width: 100%;
+  height: 100%;
+}
+.universal .container .all-menu {
+  display: flex;
+  align-items: center;
+}
+.universal .container .all-menu .main-menu {
+  display: flex;
+  align-items: center;
+  margin-right: 28px;
+}
+.universal .container .all-menu .main-menu li a {
+  font-size: 14px;
+  line-height: 68px;
+  color: #fff;
+  padding: 0 28px;
+}
+.universal .container .all-menu .main-menu img {
+  height: 20px;
+  padding: 0 28px;
+}
+.universal .container .all-menu .social-menu {
+  color: #fff;
+  margin-right: 7px;
+}
+.universal .container .all-menu .social-menu svg {
+  margin-right: 4px;
+  padding: 0 0.4em;
+  width: 40px;
+}
+
+.main-stage .container {
+  display: flex;
+}
+.main-stage .container .image {
+  height: 508px;
+  width: 1067px;
+}
+.main-stage .container .image img {
+  width: 100%;
+  height: 100%;
+}
+.main-stage .container .banner {
+  display: flex;
+  font-family: alright_sansbold, Arial, Helvetica, sans-serif;
+  padding: 15px;
+  height: 98px;
+  background-color: #1a1a1a;
+  width: 100%;
+}
+.main-stage .container .banner img {
+  height: 50px;
+  margin-right: 10px;
+}
+.main-stage .container .banner .content {
+  margin: 0 0 4px 0;
+}
+.main-stage .container .banner .content h4 {
+  font-weight: 400;
+  color: #2473d2;
+  line-height: 1;
+  font-size: 14px;
+}
+.main-stage .container .banner .content p {
+  color: #f5f3f4;
+  font-size: 11.2px;
+  text-transform: uppercase;
+}/*# sourceMappingURL=global.css.map */
